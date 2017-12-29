@@ -1,0 +1,165 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 7, 2017, 3:06:06 PM
+    Author     : Administrator
+*/
+#header{
+    background: blue;
+    height: 175px;
+    width: 100%;
+}
+
+#menumain{
+    background: brown;
+    width:25% ;
+    height: 1000px;
+    float: left;
+}
+#content{
+    text-align: center;
+    background:#ccc;
+    width: 75%;
+    height: 1000px;
+    float: right;
+}
+#dangnhap{    
+    width: 75%;
+    height: 1000px;
+    float: right;
+    text-align: center;
+}
+#dangnhap form{
+    width: 400px;
+    height:250px;
+    margin: 0 auto;  
+}
+
+#dangnhap span{
+    width: 100px;
+    display: block;
+    float: left;    
+    margin-left: 10px;
+}
+#doimatkhau{
+   
+    width: 75%;
+    height: 1000px;
+    float: right;
+    text-align: center;
+}
+#themnhanvien{
+     width: 75%;
+    height: 1000px;
+    float: right;
+    text-align: center;
+}
+#themnhanvien form{
+    width: 400px;
+    height:250px;
+    margin: 0 auto;  
+}
+
+#themnhanvien span{
+    width: 100px;
+    display: block;
+    float: left;    
+    margin-left: 10px;
+}
+#themnhanvien #cmnd{
+    margin-top: 20px;
+}
+#xemnhanvien{
+     width: 75%;
+    height: 1000px;
+    float: right;
+    text-align: center;
+}
+#xemnhanvien table{
+     margin: 0 auto;
+    border: 1px solid #b93c17;
+    border-collapse: collapse; 
+}
+#xemnhanvien table tr{
+    border: 1px solid activecaption;    
+    
+}
+#xemnhanvien table th{
+    border: 1px solid activecaption;       
+    background: #db4922;
+}
+#xemnhanvien table td{
+    border: 1px solid activecaption;
+    padding: 4px;
+}
+#xemnhatky{
+     width: 75%;
+    height: 1000px;
+    float: right;
+    text-align: center;
+}
+#xemnhatky table{
+     margin: 0 auto;
+    border: 1px solid #b93c17;
+    border-collapse: collapse; 
+}
+#xemnhatky table tr{
+    border: 1px solid activecaption;    
+}
+#xemnhatky table th{
+    border: 1px solid activecaption;       
+}
+#xemnhatky table td{
+    border: 1px solid activecaption;
+    padding: 4px;
+}
+#foodter{
+    clear: both;
+    background: #db4922;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    line-height: 200px;
+}
+/*menu*/
+body{
+    font-family: sans-serif;
+    font-size: 15px;
+}
+#menu ul{
+    margin-top: 0px;
+    background: #db4922;
+    width: 100%;
+    padding: 0; /*Bỏ icon danh sách*/
+    list-style-type: none;
+}
+#menu ul li{
+    width: auto; /*Căn theo nội dung*/
+    height: 60px;
+    line-height: 80px; /*Căn giữa*/
+    border-bottom: 1px solid #e8e8e8;
+    padding: 0 1em;
+    position: relative;
+}
+#menu ul li a{
+    text-decoration: none;
+    color: #333;
+    font-weight: bold; /*Đậm lên*/
+    display: block;
+}
+#menu ul li:hover{
+    background: #CDE2CD;
+
+}
+#menu .sub-menu2{
+    position: absolute;
+    left: 250px;
+    top: 0px; /*ngang hàng với item2*/
+    display: none;
+}
+#menu ul li:hover .sub-menu2{
+    display: block;
+}
